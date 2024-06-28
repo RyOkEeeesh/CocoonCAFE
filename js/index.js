@@ -1,3 +1,14 @@
+$(window).on('ready',function() {
+	const img_top = new Image();
+	const img_menu = new Image();
+	const img_news = new Image();
+	const img_contact = new Image();
+
+	img_top.src = '../img/main_bg01.jpg';
+	img_menu.src = '../img/main_bg02.jpg';
+	img_news.src = '../img/news-bg.jpg';
+	img_contact.src = '../img/contact-bg.jpg'
+});
 $(window).on('load',function() {
 	$('#top-to-menu').on('click',function() {
 		$('#background-img').removeClass().addClass('background-menu');
